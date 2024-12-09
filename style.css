@@ -1,0 +1,186 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+/* Nav-bar */
+.nav-area {
+    background-color: #ffc107;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+div img {
+    width: 150px;
+    cursor: pointer;
+}
+
+.nav-bar {
+    display: flex;
+    gap: 50px;
+}
+
+.headings {
+    padding: 10px;
+}
+
+.headings:hover {
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+/* Hero-Section */
+.hero-section {
+    text-align: center;
+    flex-direction: column;
+
+}
+
+div h1 {
+    margin-top: 5%;
+    font-weight: bold;
+    font-family: gotham;
+    font-size: 60px;
+}
+
+.text {
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.line {
+    border-top: 1.5px solid #000;
+    width: 100%;
+}
+
+/* Section-2 */
+.section-2 {
+    display: flex;
+    margin-top: 4%;
+    justify-content: center;
+}
+
+div h2 {
+    font-weight: bold;
+    font-family: gotham;
+    font-size: 50px;
+}
+
+/* Cards */
+.card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.cards {
+    background-color: #ffc107;
+    color: black;
+    font-size: 25px;
+    font-weight: 500px;
+    height: 300px;
+    width: 210px;
+    border-radius: 15px;
+    margin: 2%;
+    box-shadow: 3px 10px 10px 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards img {
+    height: 110px;
+    width: 110px;
+    margin-top: 30%;
+}
+
+.cards:hover{
+     background-color: #524906;
+}
+
+/* Students-Section */
+
+.students {
+    display: flex;
+    justify-content: center;
+    gap: 300px;
+    margin-top: 2%;
+    text-align: center;
+}
+
+div p {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+div h5 {
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.line-1 {
+    border-top: 4px dashed rgb(255, 110, 6);
+    width: 100%;
+}
+
+/* Footer */
+
+.footer {
+    background-color: #fdde00;
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 50px;
+    padding-top: 40px;
+    font-family: gotham;
+    justify-content: space-evenly
+}
+
+
+div a img{
+    width: 30%
+}
+
+.contact-us {
+    display: flex;
+}
+
+.copyr {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.paragraph {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.link {
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+div a {
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.image-1{
+     width: 350px;
+}
+.links{
+    width: 100px;
+    
+}
